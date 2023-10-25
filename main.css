@@ -1,9 +1,3 @@
-.container {
-  max-width: 1400px;
-  padding: 0px 32px;
-  margin: auto;
-}
-
 nav {
   width: 100%;
   height: 100px;
@@ -34,7 +28,7 @@ nav .aaa .aa1 a {
   bottom: 18px;
 }
 nav .aaa .aa1 a:hover {
-  color: red;
+  color: rgb(0, 0, 0);
 }
 nav .aaa .aa2 {
   border-radius: 20px;
@@ -59,7 +53,7 @@ nav .aaa .aa2 a {
   text-decoration: none;
 }
 nav .aaa .aa2 a:hover {
-  color: red;
+  color: rgb(0, 0, 0);
 }
 nav .aaa .aa3 {
   border-radius: 20px;
@@ -73,13 +67,516 @@ nav .aaa .aa3 a {
   right: 5px;
 }
 nav .aaa .aa3 a:hover {
-  color: red;
+  color: rgb(0, 0, 0);
 }
 
 section {
   width: 100%;
-  height: 700px;
+  height: 800px;
   background-image: url("https://res.klook.com/image/upload/c_fill,w_1265,h_712/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/nbo9izs3mg1blmsib7k9.webp");
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .condiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 60%;
+  position: relative;
+  @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+}
+section .condiv .waviy {
+  position: relative;
+  bottom: 100px;
+  left: 110px;
+}
+section .condiv .waviy span {
+  position: relative;
+  right: 30px;
+  display: inline-block;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  -webkit-animation: flip 2s infinite;
+          animation: flip 2s infinite;
+  -webkit-animation-delay: calc(0.2s * var(--i));
+          animation-delay: calc(0.2s * var(--i));
+}
+@-webkit-keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}
+section .condiv .content {
+  position: relative;
+  right: 40px;
+  bottom: 100px;
+}
+section .condiv .content h2 {
+  color: #fff;
+  font-size: 8em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+section .condiv .content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
+}
+section .condiv .content h2:nth-child(2) {
+  color: #ffffff;
+  -webkit-animation: animate 4s ease-in-out infinite;
+          animation: animate 4s ease-in-out infinite;
+}
+@-webkit-keyframes animate {
+  0%, 100% {
+    -webkit-clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+  }
+}
+@keyframes animate {
+  0%, 100% {
+    -webkit-clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+  }
+}
+section .condiv .cvb {
+  position: relative;
+  top: 140px;
+  right: 140px;
+  height: 35px;
+  width: 20%;
+  background-color: black;
+  border-radius: 15px;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+}
+section .condiv .cvb a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  position: relative;
+  font-size: 30px;
+}
+section .condiv .cvb a:hover {
+  color: rgb(0, 213, 255);
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0px 32px;
+  margin: auto;
+}
+
+.divdiv {
+  background-color: beige;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.divdiv .divdiv1 {
+  text-align: center;
+  height: 400px;
+  width: 50%;
+}
+.divdiv .divdiv1 .tit2 {
+  position: relative;
+  top: 40px;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #d61c22;
+}
+.divdiv .divdiv1 .t-center {
+  text-align: center;
+}
+.divdiv h1 {
+  position: relative;
+  top: 10px;
+  font-size: 50px;
+}
+.divdiv p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.divdiv p a {
+  color: green;
+  text-decoration: none;
+}
+.divdiv p a:hover {
+  color: red;
+}
+.divdiv .divdiv2 {
+  background-color: red;
+  height: 400px;
+  width: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.divdiv .divdiv2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.sdf {
+  background-image: url("https://wallpapercrafter.com/th800/227577-jellyfish.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 350px;
+}
+
+.con2 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.con2 .con21 {
+  text-align: center;
+  height: 350px;
+  width: 50%;
+}
+.con2 .con21 h1 {
+  position: relative;
+  top: 40px;
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  color: #d61c22;
+}
+.con2 .con21 p {
+  font-size: 60px;
+  color: white;
+}
+
+.classed1 {
+  width: 100%;
+  height: 300px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.classed1 .clas1 {
+  width: 30%;
+  height: 250px;
+  background-image: url("https://img.freepik.com/premium-photo/whole-roasted-chicken-rosemary-tomato-lemon-wooden-cutting-board-baked-chicken-grilled-barbecue-delicious-food-dining-table-holiday-celebrate_73523-3045.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.classed1 .clas2 {
+  background-size: cover;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 30%;
+  height: 250px;
+  background-image: url("https://imageproxy.wolt.com/venue/5d26fdacf91cae9e644e50b1/331d9b6c-9a91-11ed-9fdf-aadca272ee86_90180a32_7c55_11ed_9119_b231aa292288_pizza_mizza_group_foto.png");
+}
+.classed1 .clas3 {
+  background-size: cover;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 30%;
+  height: 250px;
+  background-image: url("https://insanelygoodrecipes.com/wp-content/uploads/2021/05/Sliced-Grilled-Steak-with-Herbs-and-Spices-800x530.jpg");
+}
+
+.classed2 {
+  width: 100%;
+  height: 300px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.classed2 .clas4 {
+  width: 30%;
+  height: 250px;
+  background-color: aliceblue;
+}
+.classed2 .clas4 h1 {
+  font-family: "Cinzel", serif;
+  color: black;
+}
+.classed2 .clas4 p {
+  font-family: "Kalam", cursive;
+}
+.classed2 .clas4 .gg {
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+}
+.classed2 .clas5 {
+  width: 30%;
+  height: 250px;
+  background-color: aliceblue;
+}
+.classed2 .clas5 h1 {
+  font-family: "Cinzel", serif;
+  color: black;
+}
+.classed2 .clas5 p {
+  font-family: "Kalam", cursive;
+}
+.classed2 .clas5 .gg {
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+}
+.classed2 .clas6 {
+  width: 30%;
+  height: 250px;
+  background-color: aliceblue;
+}
+.classed2 .clas6 h1 {
+  font-family: "Cinzel", serif;
+  color: black;
+}
+.classed2 .clas6 p {
+  font-family: "Kalam", cursive;
+}
+.classed2 .clas6 .gg {
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+}
+
+.fv {
+  background-color: gainsboro;
+  width: 100%;
+  height: 1300px;
+  display: flex;
+  justify-content: center;
+}
+.fv .grid {
+  background-color: gainsboro;
+  display: grid;
+  grid-area: auto;
+  grid-template-columns: auto auto auto;
+  width: 60%;
+  height: 1300px;
+  gap: 10px;
+}
+.fv .grid .g1 {
+  border-radius: 20px;
+  grid-column: 1/4;
+  background-color: gainsboro;
+  text-align: center;
+}
+.fv .grid .g1 h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  color: #d61c22;
+  position: relative;
+  top: 260px;
+}
+.fv .grid .g1 p {
+  font-family: "Cinzel", serif;
+  font-size: 90px;
+  position: relative;
+  top: 180px;
+}
+.fv .grid .g2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.freeimages.com/images/premium/previews/4713/4713020-alaskan-king-crab-dinner.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  grid-column: 1/2;
+  grid-row: 2/4;
+  background-color: rgb(153, 123, 123);
+}
+.fv .grid .g2 button {
+  width: 30%;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+.fv .grid .g2 button:hover {
+  background-color: red;
+}
+.fv .grid .g2 button a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 16px;
+}
+.fv .grid .g2 button a:hover {
+  color: rgb(255, 255, 255);
+}
+.fv .grid .g3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://previews.123rf.com/images/qzian/qzian1609/qzian160900048/64760638-food-at-banquet-table-dining-dinne-banquet-wedding.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  grid-column: 2/3;
+  grid-row: 2/4;
+  background-color: rgb(233, 207, 207);
+}
+.fv .grid .g3 button {
+  width: 30%;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+.fv .grid .g3 button:hover {
+  background-color: red;
+}
+.fv .grid .g3 button a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 16px;
+}
+.fv .grid .g3 button a:hover {
+  color: rgb(255, 255, 255);
+}
+.fv .grid .g4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/ice-tea-royalty-free-image-1621872849.jpg?resize=980:*");
+  background-size: cover;
+  border-radius: 20px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-color: rgb(184, 41, 146);
+}
+.fv .grid .g4 button {
+  width: 30%;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+.fv .grid .g4 button:hover {
+  background-color: red;
+}
+.fv .grid .g4 button a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 16px;
+}
+.fv .grid .g4 button a:hover {
+  color: rgb(255, 255, 255);
+}
+.fv .grid .g5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://assets.bonappetit.com/photos/5ed9548e3ab958a3984a0119/16:9/w_2560%2Cc_limit/20_Diageo-Tanqueray_June2020_Header_16x9-v2.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  grid-column: 1/3;
+  grid-row: 4/5;
+  background-color: rgb(100, 4, 255);
+}
+.fv .grid .g5 button {
+  width: 30%;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+.fv .grid .g5 button:hover {
+  background-color: red;
+}
+.fv .grid .g5 button a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 16px;
+}
+.fv .grid .g5 button a:hover {
+  color: rgb(255, 255, 255);
+}
+.fv .grid .g6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.ytimg.com/vi/9O7R3uFGLaU/maxresdefault.jpg");
+  background-size: cover;
+  border-radius: 29px;
+  grid-column: 3/4;
+  grid-row: 3/4;
+  background-color: rgb(4, 244, 180);
+}
+.fv .grid .g6 button {
+  width: 30%;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+.fv .grid .g6 button:hover {
+  background-color: red;
+}
+.fv .grid .g6 button a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 16px;
+}
+.fv .grid .g6 button a:hover {
+  color: rgb(255, 255, 255);
+}
+.fv .grid .g7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://realfood.tesco.com/media/images/RFO-1400x919-classic-chocolate-mousse-69ef9c9c-5bfb-4750-80e1-31aafbd80821-0-1400x919.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  grid-column: 3/4;
+  grid-row: 4/5;
+  background-color: rgb(0, 255, 17);
+}
+.fv .grid .g7 button {
+  width: 30%;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+.fv .grid .g7 button:hover {
+  background-color: red;
+}
+.fv .grid .g7 button a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 16px;
+}
+.fv .grid .g7 button a:hover {
+  color: rgb(255, 255, 255);
+}
+.fv .grid .h a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  bottom: 18px;
+}
+.fv .grid .h a:hover {
+  color: rgb(0, 0, 0);
 }/*# sourceMappingURL=main.css.map */

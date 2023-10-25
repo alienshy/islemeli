@@ -1,9 +1,3 @@
-.container {
-    max-width: 1400px;
-    padding: 0px 32px;
-    margin: auto;
-}
-
 nav {
     width: 100%;
     height: 100px;
@@ -11,7 +5,6 @@ nav {
     justify-content: center;
     align-items: center;
     position: fixed;
-
     .aaa {
         width: 100%;
         height: 100px;
@@ -19,15 +12,12 @@ nav {
         display: flex;
         justify-content: space-around;
         align-items: center;
-
         .aa1 {
             height: 45px;
             width: 7%;
-
             border-radius: 15px;
             text-align: center;
             border: 2px solid white;
-
             a {
                 color: white;
                 text-decoration: none;
@@ -35,12 +25,10 @@ nav {
                 bottom: 18px;
 
                 &:hover {
-                    color: red;
+                    color: rgb(0, 0, 0);
                 }
             }
-
         }
-
         .aa2 {
             border-radius: 20px;
             height: 80px;
@@ -60,7 +48,6 @@ nav {
                 justify-content: space-around;
                 
             }
-
             a {
                 position: relative;
                 right: 20px;
@@ -68,13 +55,10 @@ nav {
               
                 text-decoration: none;
                 &:hover {
-                    color: red;
+                    color: rgb(0, 0, 0);
                 }
             }
-
-
         }
-
         .aa3 {
             border-radius: 20px ;
             height: 80px;
@@ -86,7 +70,7 @@ nav {
                 top: 2px;
                 right: 5px;
                 &:hover {
-                    color: red;
+                    color: rgb(0, 0, 0);
                 }
             }
         }

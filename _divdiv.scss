@@ -1,0 +1,83 @@
+.divdiv{
+    background-color:beige;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    .divdiv1{
+        text-align: center;
+        height: 400px;
+        width: 50%;
+        .tit2 {
+            position: relative;
+            top: 40px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 50px;
+            line-height: 1.2;
+            color: #d61c22;
+                    }
+        .t-center {
+            text-align: center;
+        }
+        }
+        h1{
+            position: relative;
+            top: 10px;
+            font-size: 50px;
+        }
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            a{
+                color: green;
+                text-decoration: none;
+                &:hover {
+                    color: red;
+            }
+
+        }
+    }
+    .divdiv2{
+        background-color: red;
+        height: 400px;
+        width: 30%;
+        object-fit: cover;
+    
+        
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.sdf{
+    background-image: url('https://wallpapercrafter.com/th800/227577-jellyfish.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+}
+.con2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .con21{
+        text-align: center;
+        height: 350px;
+        width: 50%;
+        h1 {
+            position: relative;
+            top: 40px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 60px;
+            color: #d61c22;
+        }
+        p{
+            font-size: 60px;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+.classed1{
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+    
+    .clas1{
+        width: 30%;
+        height: 250px;
+        background-image: url('https://img.freepik.com/premium-photo/whole-roasted-chicken-rosemary-tomato-lemon-wooden-cutting-board-baked-chicken-grilled-barbecue-delicious-food-dining-table-holiday-celebrate_73523-3045.jpg');
+        background-size: cover;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .clas2{
+        background-size: cover;
+        border-radius: 20px;
+        object-fit: cover;
+        width: 30%;
+        height: 250px;
+        background-image: url('https://imageproxy.wolt.com/venue/5d26fdacf91cae9e644e50b1/331d9b6c-9a91-11ed-9fdf-aadca272ee86_90180a32_7c55_11ed_9119_b231aa292288_pizza_mizza_group_foto.png');
+    }
+    .clas3{
+        background-size: cover;
+        border-radius: 20px;
+        object-fit: cover;
+        width: 30%;
+        height: 250px;
+        background-image: url('https://insanelygoodrecipes.com/wp-content/uploads/2021/05/Sliced-Grilled-Steak-with-Herbs-and-Spices-800x530.jpg');
+    }
+}
+.classed2{
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+    
+    .clas4{
+        width: 30%;
+        height: 250px;
+        background-color: aliceblue;
+        h1{
+            font-family: 'Cinzel', serif;
+            color: black;
+        }
+        p{
+            font-family: 'Kalam', cursive;
+        }
+        .gg{
+            font-family: 'Cinzel', serif;
+            font-size: 20px;
+        }
+    }
+    .clas5{
+        width: 30%;
+        height: 250px;
+        background-color: aliceblue;
+        h1{
+            font-family: 'Cinzel', serif;
+            color: black;
+        }
+        p{
+            font-family: 'Kalam', cursive;
+        }
+        .gg{
+            font-family: 'Cinzel', serif;
+            font-size: 20px;
+        }
+
+    }
+    .clas6{
+        width: 30%;
+        height: 250px;
+        background-color: aliceblue;
+        h1{
+            font-family: 'Cinzel', serif;
+            color: black;
+        }
+        p{
+            font-family: 'Kalam', cursive;
+        }
+        .gg{
+            font-family: 'Cinzel', serif;
+            font-size: 20px;
+        }
+    }
+}
