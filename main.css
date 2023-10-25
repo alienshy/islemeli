@@ -1,0 +1,85 @@
+.container {
+  max-width: 1400px;
+  padding: 0px 32px;
+  margin: auto;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+nav .aaa {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 139, 139, 0.5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .aaa .aa1 {
+  height: 45px;
+  width: 7%;
+  border-radius: 15px;
+  text-align: center;
+  border: 2px solid white;
+}
+nav .aaa .aa1 a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  bottom: 18px;
+}
+nav .aaa .aa1 a:hover {
+  color: red;
+}
+nav .aaa .aa2 {
+  border-radius: 20px;
+  height: 80px;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .aaa .aa2 ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .aaa .aa2 a {
+  position: relative;
+  right: 20px;
+  color: aqua;
+  text-decoration: none;
+}
+nav .aaa .aa2 a:hover {
+  color: red;
+}
+nav .aaa .aa3 {
+  border-radius: 20px;
+  height: 80px;
+  width: 15%;
+}
+nav .aaa .aa3 a {
+  position: relative;
+  color: aqua;
+  top: 2px;
+  right: 5px;
+}
+nav .aaa .aa3 a:hover {
+  color: red;
+}
+
+section {
+  width: 100%;
+  height: 700px;
+  background-image: url("https://res.klook.com/image/upload/c_fill,w_1265,h_712/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/nbo9izs3mg1blmsib7k9.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=main.css.map */
